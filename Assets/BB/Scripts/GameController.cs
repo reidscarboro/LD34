@@ -235,8 +235,8 @@ public class GameController : MonoBehaviour {
     public void incrementDifficulty() {
         //clippersController.speed += 0.0025f;
         //clippersController.turnAngle += 0.25f;
-        Time.timeScale += 0.2f;
-        Camera.main.GetComponent<AudioSource>().pitch += 0.02f;
+        Time.timeScale += 0.3f;
+        Camera.main.GetComponent<AudioSource>().pitch += 0.03f;
     }
 
     public void endGame() {
@@ -251,10 +251,10 @@ public class GameController : MonoBehaviour {
     }
 
     public void checkCutoutComplete() {
-        if (clipVerticies.Count > 2) {
+        if (clipVerticies.Count > 5) {
             int removeBeforeIndex = 0;
             bool intersectionFound = false;
-            for (int i = 1; i < clipVerticies.Count - 2; i++) {
+            for (int i = 1; i < clipVerticies.Count - 4; i++) {
                 if (LineUtil.doIntersect(previousVertex, clippersController.getPosition(), clipVerticies[i - 1], clipVerticies[i])) {
                     intersectionFound = true;
                     removeBeforeIndex = i;
