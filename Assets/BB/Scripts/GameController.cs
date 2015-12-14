@@ -254,7 +254,7 @@ public class GameController : MonoBehaviour {
         if (clipVerticies.Count > 5) {
             int removeBeforeIndex = 0;
             bool intersectionFound = false;
-            for (int i = 1; i < clipVerticies.Count - 4; i++) {
+            for (int i = 2; i < clipVerticies.Count - 4; i++) {
                 if (LineUtil.doIntersect(previousVertex, clippersController.getPosition(), clipVerticies[i - 1], clipVerticies[i])) {
                     intersectionFound = true;
                     removeBeforeIndex = i;
