@@ -79,6 +79,12 @@ public class GameController : MonoBehaviour {
     }
 
 	void FixedUpdate() {
+
+        if (Input.GetKeyDown(KeyCode.Escape)) {
+            Application.Quit();
+        }
+
+
         frameCounter++;
         if (gameState == GameState.INITIAL) {
             if ((frameCounter > timer_initial && !isInitial) || frameCounter > 100) {

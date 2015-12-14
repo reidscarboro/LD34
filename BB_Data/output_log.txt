@@ -14,20 +14,14 @@ Platform assembly: C:\Users\Rscar\Dropbox\BB\BB\BB_Data\Managed\UnityEngine.UI.d
 Loading C:\Users\Rscar\Dropbox\BB\BB\BB_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\Rscar\Dropbox\BB\BB\BB_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\Rscar\Dropbox\BB\BB\BB_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.049 seconds
+- Completed reload, in  0.052 seconds
 Platform assembly: C:\Users\Rscar\Dropbox\BB\BB\BB_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Rscar\Dropbox\BB\BB\BB_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 3200x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.622035 ms
+UnloadTime: 0.744608 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 3410 -> priority: 1 
-  Thread -> id: acc -> priority: 1 
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.325925 ms
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 436.
-Total: 0.156209 ms (FindLiveObjects: 0.027521 ms CreateObjectMapping: 0.022424 ms MarkObjects: 0.092502 ms  DeleteObjects: 0.012996 ms)
-
+  Thread -> id: 2fdc -> priority: 1 
+  Thread -> id: 34d8 -> priority: 1 
